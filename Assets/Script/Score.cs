@@ -23,7 +23,7 @@ public class Score : MonoBehaviour {
 
 	void OnGUI () {
 
-		GUI.Label (new Rect (10,10,300,30), "Player Score: " + PlayerScore.ToString());
-		GUI.Label (new Rect (10,35,300,30), "Enemy Score: " + EnemyScore.ToString());
+		GUI.Label (new Rect (30,10,300,30), "Player Score: " + PlayerScore.ToString());
+		GUI.Label (new Rect (30,35,300,30), "Enemy Score: " + EnemyScore.ToString());
 	}
 }
